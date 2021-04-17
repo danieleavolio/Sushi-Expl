@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="icon" type="image/png" href="icons/facvicon.png">
+
+
+</head>
+
+<body>
+    <div class="main-page-div">
+        <h1>Sushi Exp</h1>
+        <p>know what you are ordering</p>
+        <p class="explore-button" id="button" onclick="scroll()">EXPLORE</p>
+
+        <p id="text-on-screen"></p>
+
+    </div>
+
+    <div class="plate-div teal-orange" id="firstPlate">
+        <h1>Nigiri</h1>
+        <div class="picture-and-text">
+            <div class="square-blue">
+                <div class="picture">
+                    <img src="icons/nigiri.png" alt="">
+                </div>
+            </div>
+            <h1 class="jap-name">にぎり</h1>
+            <div class="ingredients">
+                <h1>Ingredients:</h1>
+                <ul>
+                    <li>sushi rice </li>
+                    <li>sushi vinegar</li>
+                    <li>nori seaweed</li>
+                    <li>nigiri sushi mould</li>
+                    <li>wasabi paste</li>
+                    <li>soy sauce</li>
+                    <li>pickled sushi ginge</li>
+                </ul>
+            </div>
+        </div>
+        <div class="description">
+            <h1>Description</h1>
+            <p>Directly, Nigiri translates to “two fingers”. As the name implies, this is a small, delicious treat that
+                features a
+                thinly-sliced drapery of raw fish, laid over a cluster of sweet and salty vinegared rice. The roll is
+                chilled,
+                and the smooth taste of the fish
+                combines with the sticky and tangy flavor of the rice to create an absolutely superb mouthfeel.</p>
+        </div>
+    </div>
+    <div class="plate-div light-blue">
+        <h1>Makizushi</h1>
+        <div class="picture-and-text">
+            <div class="square-orange">
+                <div class="picture">
+                    <img src="icons/makisushi.png" alt="">
+                </div>
+            </div>
+            <h1 class="jap-name">巻き寿司</h1>
+            <div class="ingredients">
+                <h1>Ingredients:</h1>
+                <ul>
+                    <li>100g sushi rice</li>
+                    <li> 1 sheet nori seaweed</li>
+                    <li> 2 tbsp sushi vinegar</li>
+                    <li> soy sauce</li>
+                    <li>wasabi</li>
+                    <li> sushi ginger</li>
+                    <li>roasted white sesame seeds (optional)</li>
+                </ul>
+            </div>
+        </div>
+        <div class="description">
+            <h1>Description</h1>
+            <p>Makizushi is a type of Japanese sushi roll filled with various fillings.
+                The term makizushi refers to the fact that the sushi is rolled—maki means "to roll," and zushi is the
+                conjugated version of
+                the word "sushi." Makizushi is the best-known type of sushi outside of Japan. It's common for people to
+                use the term maki sushi
+                when referring to makizushi.
+                This is primarily a mistake in pronunciation and spelling—an easy one to make, given these rolls are a
+                type of sushi.</p>
+        </div>
+    </div>
+
+    <div class="plate-div teal-orange">
+        <h1>Gunkan Maki</h1>
+        <div class="picture-and-text">
+            <div class="square-blue">
+                <div class="picture">
+                    <img src="icons/gunkanMaki.png" alt="">
+                </div>
+            </div>
+            <h1 class="jap-name">グンカンマキ</h1>
+            <div class="ingredients">
+                <h1>Ingredients:</h1>
+                <ul>
+                    <li>Fresh Steamed Rice</li>
+                    <li>tsp Salt</li>
+                    <li> tbsp Sugar</li>
+                    <li> tbsp Rice Vinegar</li>
+                </ul>
+            </div>
+        </div>
+        <div class="description">
+            <h1>Description</h1>
+            <p>Gunkan (pronounced: ghoon-khahn) means war boat and is also called gunkan maki. It is a special form of
+                nigirizushi
+                and is shaped by hand, just like nigiri. Gunkan are “boat-shaped” cubes
+                of sushi rice wrapped in a tall strip of seaweed to create a bowl that can be filled with a topping.
+            </p>
+        </div>
+    </div>
+    <div class="plate-div light-blue">
+        <h1>Futomaki</h1>
+        <div class="picture-and-text">
+            <div class="square-orange">
+                <div class="picture">
+                    <img src="icons/futomaki.png" alt="">
+                </div>
+            </div>
+            <h1 class="jap-name">太巻き</h1>
+            <div class="ingredients">
+                <h1>Ingredients:</h1>
+                <ul>
+                    <li>Tamagoyaki / Dashimaki Tamago</li>
+                    <li>Simmered Shiitake Mushrooms</li>
+                    <li>Simmered Kanpyo (gourd strips)</li>
+                    <li>Sakura Denbu (Seasoned Codfish Flakes)</li>
+                    <li>Cooked unagi (freshwater eel) or anago (saltwater eel)</li>
+                    <li>Cucumber</li>
+                    <li>Mitsuba or Spinach</li>
+                    <li>Simmered Shiitake Mushrooms</li>
+                </ul>
+            </div>
+        </div>
+        <div class="description">
+            <h1>Description</h1>
+            <p>A type of Japanese sushi that is larger in size, both length and thickness, than the traditional sushi
+                known as maki.
+                It consists of vegetables, fish (raw or cooked) and seasoned rice that are wrapped in nori (toasted
+                seaweed).
+                Futomaki is rolled into a thick circular, tube-shaped wrap of rice that is sliced into larger rolled
+                portions.
+                The opposite of thick sushi rolls is "hosomaki" which refers to thin sushi rolls, and thus, thin
+                finger-sized rolled portions
+                when sliced.</p>
+        </div>
+    </div>
+
+    <div class="plate-div teal-orange">
+        <h1>Hosomaki</h1>
+        <div class="picture-and-text">
+            <div class="square-blue">
+                <div class="picture">
+                    <img src="icons/hosomaki.png" alt="">
+                </div>
+            </div>
+            <h1 class="jap-name">細巻</h1>
+            <div class="ingredients">
+                <h1>Ingredients:</h1>
+                <ul>
+                    <li>sheets nori</li>
+                    <li>cups cook & seasoned sushi rice</li>
+                    <li>oz sashimi grade tuna or any fish of choice</li>
+                    <li>egg</li>
+                    <li>sticks kani</li>
+                    <li>mini cucumber</li>
+                    <li>Any sashimi-grade fish or filling of choice</li>
+                </ul>
+            </div>
+        </div>
+        <div class="description">
+            <h1>Description</h1>
+            <p>A Japanese term used to describe thin rolls of sushi. When the sushi is wrapped in nori (toasted seaweed)
+                it is rolled up as a small circular tube-shaped creation that is then sliced into finger-sized rolled
+                portions.
+                The opposite of thin sushi rolls is "futomaki" which refers to thick sushi rolls,
+                and thus, thick rolled sections when sliced.</p>
+        </div>
+    </div>
+    <div class="plate-div light-blue">
+        <h1>Temakizushi</h1>
+        <div class="picture-and-text">
+            <div class="square-orange">
+                <div class="picture">
+                    <img src="icons/temakisushi.png" alt="">
+                </div>
+            </div>
+            <h1 class="jap-name">手巻き寿司</h1>
+            <div class="ingredients">
+                <h1>Possible ingredients:</h1>
+                <ul>
+                    <li>Amaebi (sweet shrimp)</li>
+                    <li>Hamachi (yellowtail)</li>
+                    <li>Hotate (scallop)</li>
+                    <li>Ikura (salmon roe)</li>
+                    <li>Kanpachi (amberjack)</li>
+                    <li>Maguro (tuna)</li>
+                    <li>Salmon</li>
+                    <li>napper)</li>
+                    <li>roe)</li>
+                    <li>Toro (fatty tuna)</li>
+                    <li>Uni (sea urchin)</li>
+                </ul>
+            </div>
+        </div>
+        <div class="description">
+            <h1>Description</h1>
+            <p>A cone-shaped meatball, with the nori on the outside and the ingredients protruding from the wide end.
+                Larger in size, traditionally ten centimeters long, it should be eaten in bites by holding it with your
+                fingers,
+                because it would be too difficult to lift with sticks.</p>
+        </div>
+    </div>
+
+    <div class="plate-div teal-orange">
+        <h1>Uramaki</h1>
+        <div class="picture-and-text">
+            <div class="square-blue">
+                <div class="picture">
+                    <img src="icons/uramaki.png" alt="">
+                </div>
+            </div>
+            <h1 class="jap-name">うらまき</h1>
+            <div class="ingredients">
+                <h1>Ingredients:</h1>
+                <ul>
+                    <li>cooked japanese sushi rice</li>
+                    <li>sushi vinegar</li>
+                    <li>long strip of sashimi grade fish</li>
+                    <li>long strip of cucumber</li>
+                    <li>sheet nori seaweed</li>
+                    <li>sprig dill</li>
+                    <li>tsp wasabi</li>
+                </ul>
+            </div>
+        </div>
+        <div class="description">
+            <h1>Description</h1>
+            <p>Uramaki is one of 5 traditional sushi rolls, or makizushi, in traditional Japanese cuisine.
+                The meaning of its name is, literally, “inside out” roll. It could be defined as a “rebel roll” because
+                it
+                goes against the usual norm of wrapping the roll of rice from the outside.
+                Instead, the roll contents are wrapped with nori, and then rice is rolled around it.</p>
+        </div>
+    </div>
+
+    <div class="thank-you-page">
+        <h1>Thank you</h1>
+        <h1 class="jap-comment">ありがとうございましたs</h1>
+        <div class="final-comment-div">
+            <p>Site made just for fun to help someone to understand better what to do in case of
+                an imminent
+            <p>ありがとうございました ( ALL YOU CAN EAT )</p>
+            I hope that this helped someone.
+            </p>
+            <h4> I’m Daniele, the website developer, and I appreciate that you used the site! <3 </h4>
+        </div>
+        <div class="buymeacoffe">
+            <script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js"
+                data-name="bmc-button" data-slug="Lovaion" data-color="#ee6c4d" data-emoji="" data-font="Lato"
+                data-text="Buy me a coffee" data-outline-color="#000000" data-font-color="#FFFFFF"
+                data-coffee-color="#FFDD00"></script>
+        </div>
+
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>
